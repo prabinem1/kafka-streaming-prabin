@@ -1,4 +1,4 @@
-# Kafka Streaming Project - Banking/Flash Sale Transactions Simulation
+# Kafka Streaming Project - Flash Sale Transactions Simulation
 
 ## Project Objective
 This project simulates a real-time streaming data pipeline for banking or flash sale transactions using Kafka (Redpanda).  
