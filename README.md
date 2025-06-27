@@ -29,28 +29,8 @@ Redpanda serves as the Kafka broker with a web console to monitor topics and mes
 
 ---
 ## ER Diagram
-┌──────────────┐         ┌──────────────┐
-│  Customer    │         │  Merchant    │
-├──────────────┤         ├──────────────┤
-│ customer_id  │◄──────┐ │ merchant_id  │◄──────┐
-│ name         │       │ │ name         │       │
-│ email        │       │ │ category     │       │
-│ phone        │       │ │ location     │       │
-└──────────────┘       │ └──────────────┘       │
-                       │                        │
-                       ▼                        ▼
-                   ┌──────────────────────────────────────┐
-                   │            Transaction              │
-                   ├──────────────────────────────────────┤
-                   │ transaction_id (PK)                  │
-                   │ timestamp                            │
-                   │ amount                               │
-                   │ status (success/failure)             │
-                   │ payment_method                       │
-                   │ customer_id (FK → Customer)          │
-                   │ merchant_id (FK → Merchant)          │
-                   └──────────────────────────────────────┘
 
+![ER Diagram](docs/er_diagram.png)
 
 ---
 
