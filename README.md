@@ -30,7 +30,7 @@ Redpanda serves as the Kafka broker with a web console to monitor topics and mes
 ---
 ## ER Diagram
 
-![ER Diagram](docs/er_diagram.png)
+![ER Diagram](er_diagram.png)
 
 ---
 
